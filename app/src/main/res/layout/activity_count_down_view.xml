@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cn.ittiger.loading.demo.MainActivity"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:text="开始"/>
+
+    <cn.ittiger.loading.CountDownView
+        android:id="@+id/countDownView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        app:countDownTime="8000"
+        android:layout_gravity="center_horizontal"/>
+
+    <cn.ittiger.loading.CountDownView
+        android:id="@+id/countDownView2"
+        android:layout_marginTop="20dp"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        app:progressColor="@android:color/holo_red_dark"
+        app:wordWrap="false"
+        app:text="跳过"/>
+
+</LinearLayout>

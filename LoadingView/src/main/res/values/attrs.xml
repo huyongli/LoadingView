@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="LoadingView">
+        <attr name="maxRadius" format="dimension"/>
+        <attr name="minRadius" format="dimension"/>
+        <attr name="ball1Color" format="color"/>
+        <attr name="ball2Color" format="color"/>
+        <attr name="duration" format="integer"/>
+    </declare-styleable>
+
+    <declare-styleable name="CountDownView">
+        <attr name="text" format="string"/>
+        <attr name="textSize" format="dimension"/>
+        <attr name="textColor" format="color"/>
+        <attr name="progressColor" format="color"/>
+        <attr name="progressWidth" format="dimension"/>
+        <attr name="backgroundColor" format="color"/>
+        <attr name="countDownTime" format="integer"/>
+        <attr name="wordWrap" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="CircleProgress">
+        <attr name="circleColor" format="color"/>
+        <attr name="loopColor" format="color"/>
+        <attr name="loopProgressColor" format="color"/>
+        <attr name="loopWidth" format="dimension"/>
+        <attr name="percentageTextColor" format="color"/>
+        <attr name="percentageTextSize" format="dimension"/>
+    </declare-styleable>
+</resources>
