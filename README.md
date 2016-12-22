@@ -1,6 +1,6 @@
-# TigerUI
+# LoadingView
 
-这个库里都是本人实现的一些自定义View，后续会不断的添加新的自定义View。
+这里面是我实现的不同样式的自定义Loading View，后续会不定时添加一些新的Loading View。
 
 # 已有的View
 目前已经实现了如下自定义View，每个View都支持自定义属性的设置，如：大小、颜色、半径等
